@@ -1,0 +1,191 @@
+/* Reseta os estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Contêiner principal */
+.container {
+    max-width: 480px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos principais */
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os inputs e campos do formulário */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+button,
+label {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Foco no campo de input */
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #2e86de;
+    box-shadow: 0 0 5px rgba(46, 134, 222, 0.3);
+    outline: none;
+}
+
+/* Botões */
+button {
+    background-color: #2e86de;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1b4f72;
+}
+
+/* Estilo para o link */
+a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    color: #2e86de;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox */
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Alertas de erro e sucesso */
+.alert,
+.success {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.alert {
+    background-color: #f44336;
+    color: white;
+}
+
+.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Formulário e ajustes gerais */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mensagem de erro quando houver problemas */
+.error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+/* Estilo para a área restrita (dashboard) */
+.dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para a página de login */
+.login-page {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-page input {
+    margin-top: 10px;
+}
+
+/* Estilos específicos para a página de cadastro */
+.cadastro-page {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.cadastro-page input {
+    margin-top: 10px;
+}
+
+/* Estilo para o cabeçalho do site */
+header {
+    background-color: #2e86de;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o rodapé */
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
